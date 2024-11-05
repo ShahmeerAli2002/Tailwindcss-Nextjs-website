@@ -68,16 +68,8 @@ const Navbar = () => {
         </div>
 
         {isMenuOpen && (
-
           <div className="md:hidden fixed top-[3.5rem] sm:top-16 left-0 w-full h-[calc(100vh-3.5rem)] sm:h-[calc(100vh-4rem)] bg-[#1a1a1a] border-t border-gray-800 overflow-y-auto z-50">
             <div className="flex flex-col px-4 py-2">
-
-
-
-
-
-
-
               <Link href="/" onClick={() => setIsMenuOpen(false)} className="py-3 border-b border-gray-800 hover:text-yellow-500 transition-colors text-sm sm:text-base">HOME</Link>
               <Link href="/Pages1" onClick={() => setIsMenuOpen(false)} className="py-3 border-b border-gray-800 hover:text-yellow-500 transition-colors text-sm sm:text-base">PAGES</Link>
               <Link href="/about" onClick={() => setIsMenuOpen(false)} className="py-3 border-b border-gray-800 hover:text-yellow-500 transition-colors text-sm sm:text-base">About</Link>
@@ -89,7 +81,6 @@ const Navbar = () => {
               </button>
             </div>
           </div>
-
         )}        <CountdownBanner />
       </div>
 
